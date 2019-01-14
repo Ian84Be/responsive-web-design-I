@@ -64,10 +64,19 @@ h1, h2, h3, h4, h5 {
 }
 
 .container {
+  border:1px solid red;
   width: 880px;
   /* TB LR */
   margin: 0 auto;
 }
+@media (max-width:800px) {
+  .container {
+    background-color:orange;
+    width:800px;
+  }
+}
+
+
 
 /* header */
 
